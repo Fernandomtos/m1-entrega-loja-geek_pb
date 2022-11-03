@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.menu {
+    width: 100%;
+    background: white;
+    box-shadow: 0px 4px 30px -10px rgba(0,0,0,0.1);
+}
+
+.menu-flex {
+    display: flex;
+    align-items: center;
+}
+
+.menu-column {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px; 
+}
+
+.menu-link-button {
+    text-decoration: none;
+    height: 40px;
+    width: 150px;
+    background-color:rgba(10, 153, 254, 0.1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    font-size: 20px;
+    transition:all 0.5s;
+}
+
+.menu-link-button:hover {
+    background-color: #0A99FE;
+}
+
+h2 {
+    color: black;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.secao-list-Frames {
+    display: flex;
+    justify-content: flex-start;
+    /* border: 1px solid black; */
+    margin-bottom: 30px;
+    overflow-x: auto;
+}
+
+.secao-list-Figure {
+    display: flex;
+    justify-content: flex-start;
+    /* border: 1px solid black; */
+    margin-bottom: 30px;
+    overflow-x: auto;
+}
+
+.carditem, .cardfigure {
+    width: 207px;
+    height: 275px;
+    margin: 25px;
+    background-color:#E1E1E1;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    list-style: none;
+}
+
+.cards.cardfigure {
+    display: flex;
+    list-style: none;
+}
+
+img {
+    border-radius: 10px;
+    width: 207px;
+    max-height: 137.5px;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.titulocard {
+    color: black;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.valorproduto {
+    font-size: 16px;
+    color: #868383;
+}
+
+a {
+    cursor: pointer;
+}
