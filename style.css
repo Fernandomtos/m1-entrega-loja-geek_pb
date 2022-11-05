@@ -50,13 +50,17 @@ body{
     transition:all 0.5s;
 }
 
+.ativo {
+    background-color: #0A99FE
+}
+
 .menu-link-button:hover {
     background-color: #0A99FE;
 }
 
 h2 {
     color: black;
-    margin-left: 25px;
+    /* margin-left: 25px; */
     font-size: 20px;
 }
 
@@ -79,7 +83,7 @@ h2 {
 .carditem, .cardfigure {
     width: 207px;
     height: 275px;
-    margin: 25px;
+    margin-right: 25px;
     background-color:#E1E1E1;
     border-radius: 10px;
 }
